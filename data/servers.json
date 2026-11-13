@@ -8140,6 +8140,35 @@
     ]
   },
   {
+    "name": "DocQuery",
+    "url": "https://docquery.io",
+    "repository": "https://github.com/acrogenesis/docquery-mcp",
+    "description": "Hosted MCP server that turns spreadsheets (Excel, CSV, Google Sheets, Airtable) and PDFs into one relational, queryable API for AI clients.",
+    "category": "databases-and-storage",
+    "language": "Elixir",
+    "provider": "DocQuery",
+    "tags": [
+      "spreadsheets",
+      "pdf",
+      "airtable",
+      "google-sheets",
+      "remote"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://docquery.io/mcp"
+    }
+  },
+  {
     "name": "Clara by nOps",
     "url": "https://github.com/nops-io/clara-mcp",
     "description": "Official nOps FinOps assistant: query AWS, GCP and Azure cost and usage, Reserved Instance and Savings Plan performance, budgets, reports and anomalies over OAuth.",
