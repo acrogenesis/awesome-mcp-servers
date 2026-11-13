@@ -8165,7 +8165,7 @@
       "api-key"
     ],
     "endpoints": {
-      "streamableHttp": "https://docquery.io/mcp"
+      "streamableHttp": "https://docquery.io/api/v1/mcp"
     }
   },
   {
